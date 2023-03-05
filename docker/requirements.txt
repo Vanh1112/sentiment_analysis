@@ -1,0 +1,5 @@
+tensorflow
+Keras
+pandas
+Flask
+aurora-nlp
