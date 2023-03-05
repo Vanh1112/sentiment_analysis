@@ -1,7 +1,7 @@
 ##Description
 ## Docker
 ```
-docker build -t tinhte-sentiment:latest .
+docker build -t sentiment_analysis:latest .
 docker run -dt -v $(pwd):/app/ -p 5000:5000 --env-file docker/.env --name sentiment sentiment_analysis:latest
 ```
 
